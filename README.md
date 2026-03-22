@@ -41,4 +41,4 @@ A simple and responsive weather application that allows users to search real-tim
 
 ## 🚀 Live Demo
 
-👉 https://github.com/Anveshna2025-droid/Assignment_WebDevII
+👉 https://anveshna2025-droid.github.io/Assignment_WebDevII/
