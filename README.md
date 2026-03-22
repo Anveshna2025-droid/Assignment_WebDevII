@@ -35,10 +35,14 @@ A simple and responsive weather application that allows users to search real-tim
 
 weather-app/
 │
-├── index.html # Main HTML file
-├── style.css # Styling
-├── script.js # JavaScript logic
-└── README.md # Documentation
+├── index.html 
+# Main HTML file
+├── style.css 
+# Styling
+├── script.js 
+# JavaScript logic
+└── README.md 
+# Documentation
 
 ## 🚀 Live Demo
 
