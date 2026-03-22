@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+    to bottom,
+    #00BFFF,
+    #38bdf8,
+    #7dd3fc,
+    #fde68a
+);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.parent-card {
+    display: flex;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.input-space {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #BBE0EF;
+}
+
+button {
+    padding: 10px 20px;
+    background: #F16D34;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: linear-gradient(to right, #f97316, #fb923c);
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.weather-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-left: 4px solid #F16D34;
+    margin-bottom: 6px;
+    background: #f9f9f9;
+}
+
+.history button {
+    margin: 5px;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+
+@media (max-width:700px) {
+    .parent-card {
+        flex-direction: column;
+    }
+}
